@@ -12,7 +12,7 @@ print ("¡Bienvenidx", nombre, "al juego de adivinar el número secreto!")
 
 
 while not numero_adivinado and cantidad_intentos < cantidad_maxima_intentos:
-    numero_ingresado = int ((input ("Ingresá un número del 0 al 100: ")))
+    numero_ingresado = int ((input ("Ingresá un número del 0 al 101: ")))
 
     if numero_ingresado == numero_secreto:
         print ("¡Felicitaciones", nombre, "adivinaste el número secreto! ¡Ganaste!")
